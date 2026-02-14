@@ -2,8 +2,8 @@ Flask
 opencv-python
 face-recognition
 numpy
-Pillow
 sqlite3
 cv2
+
 
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Face</title>
+</head>
+<body>
+
+<h1>Live Face Registration</h1>
+
+<form action="/save_capture" method="POST">
+    Name: <input type="text" name="name" required>
+    <br><br>
+
+    <img src="{{ url_for('video') }}" width="600">
+    <br><br>
+
+    <button type="submit">Capture & Register</button>
+</form>
+
+<br>
+<a href="/">Back to Home</a>
+
+</body>
+</html>
